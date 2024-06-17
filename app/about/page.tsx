@@ -7,12 +7,14 @@ const person = {
 function About() {
   return (
     <div>
+      <Link href="/" className="text-blue-500" >go to home</Link>
     About
-    <Link href="/" className="text-blue-500" >go to home</Link>
-    <Link href={{ pathname: "/contactUs", query: { person:JSON.stringify(person) }}}>go to contact us</Link>
-    <Link href="/dashboard" scroll>
-      Dashboard
-    </Link>
+
+    {/* <Link href="/" className="text-blue-500" >go to home</Link>
+    <Link href={{ pathname: "/contactUs", query: { person:JSON.stringify(person) }}}>go to contact us</Link> */}
+    
+    
+    
 
     </div>
   )
